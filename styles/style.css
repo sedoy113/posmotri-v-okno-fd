@@ -236,14 +236,6 @@ ol {
 	padding-bottom: 5px;
 }
 
-.search-form__label {
-	cursor: pointer;
-}
-
-.search-form__label:hover:has(.search-form__checkbox) {
-	text-decoration: underline;
-}
-
 .search-form__label-text {
 	font-size: 18px;
 	font-weight: 400;
@@ -274,11 +266,16 @@ ol {
 	align-items: center;
 	gap: 5px;
 	width: fit-content;
+	cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
 	outline: 1px solid #fff;
 	outline-offset: 3px;
+}
+
+.search-form__label:hover:has(.search-form__checkbox) {
+	text-decoration: underline;
 }
 
 .search-form__checkbox {
