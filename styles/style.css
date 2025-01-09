@@ -233,6 +233,7 @@ ol {
 .search-form__checkbox-list {
 	display: flex;
 	gap: 15px;
+	padding-bottom: 5px;
 }
 
 .search-form__label {
